@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- LINK JAVASCRIPT-->
+    <link rel="stylesheet" href="javascript/main.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="span-animed">
+
+        <span>O</span>
+        <span>I</span>
+        <span>E</span>
+
+    </div>
+
+    <div id="janela" class="janela" style="display: none;">
+
+        <h1>VOCÊ ME AMA?</h1>
+
+        <button>SIM</button>
+        <button>NÃO</button>
+
+    </div>
+
+    <div>
+        <p class="msg-amor">
+
+           VOCÊ NÃO ESTÁ NOS CONTOS DE FADA MAS É MINHA PRINCESA
+
+        </p>
+
+        <script src="javascript/main.js"></script>
+
+    </div>
+
+    <div>
+
+        <button class="botao-amor" onclick="mostrarJanela()">PRA VOCÊ</button>
+
+      
+
+        <script>
+
+            // função mostrar janela
+            function mostrarJanela() {
+                var janela = document.getElementById('janela');
+                janela.style.display = 'block';
+            };
+
+        </script>
+  
+    </div>
+    
+</body>
+
+</html>
+
+
